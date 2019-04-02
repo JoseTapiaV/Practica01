@@ -6,11 +6,21 @@
 package ec.edu.ups.clases;
 
 /**
+ *Reservacion
  *
- * @author PCX
+ * Clase que permite ingresar los datos de una reservacion
+ * @version 2.0
+ * @since 2019
+ * @author Jose Tapia
  */
 public class Reservacion 
 {
+
+    @Override
+    public String toString() 
+    {
+        return "Reservacion:" + "\n Codigo de Reservacion=" + codigoReservacion + "\n Numero de Mesa de Reservacion=" + numeroMesaReservacion + "\n Horario de Reservacion=" + horarioReservacion + '.';
+    }
     private int codigoReservacion;
     private int numeroMesaReservacion;
     private double horarioReservacion;

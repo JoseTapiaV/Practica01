@@ -6,11 +6,21 @@
 package ec.edu.ups.clases;
 
 /**
+ *Empleado
  *
- * @author PCX
+ * Clase que permite ingresar los datos del empleado
+ * @version 2.0
+ * @since 2019
+ * @author Jose Tapia
  */
 public class Empleado 
 {
+
+    @Override
+    public String toString() 
+    {
+        return "Empleado:" + "\n Nombre de Empleado=" + nombreEmpleado + "\n Sueldo de Empleado=" + sueldoEmpleado + "\n Horario de Entrada de Empleado=" + entradaEmpleado + '.';
+    }
     private String nombreEmpleado;
     private double sueldoEmpleado;
     private double entradaEmpleado;

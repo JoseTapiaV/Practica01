@@ -6,11 +6,21 @@
 package ec.edu.ups.clases;
 
 /**
+ *Menu
  *
- * @author PCX
+ * Clase que permite ingresar los nombres y costos del menu
+ * @version 2.0
+ * @since 2019
+ * @author Jose Tapia
  */
 public class Menu 
 {
+
+    @Override
+    public String toString() 
+    {
+        return "Menu:" + "\n Nombre de Seccion=" + nombreSeccion + "\n Nombre de Comida=" + nombreComida + "\n Costo de Comida=" + costoComida + '.';
+    }
     private String nombreSeccion;
     private String nombreComida;
     private double costoComida;

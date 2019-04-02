@@ -6,11 +6,21 @@
 package ec.edu.ups.clases;
 
 /**
+ * Sucursal
  *
- * @author PCX
+ * Clase que permite ingresar los datos de una sucursal del restaurante
+ * @version 2.0
+ * @since 2019
+ * @author Jose Tapia
  */
 public class Sucursal 
 {
+
+    @Override
+    public String toString() 
+    {
+        return "Sucursal:" + "\n Numero de Local=" + numeroLocal + "\n Nombre de Restaurante=" + nombreRes + "\n Direccion de Restaurante=" + direccionRes + '.';
+    }
     private int numeroLocal;
     private String nombreRes;
     private String direccionRes;

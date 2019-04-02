@@ -6,11 +6,21 @@
 package ec.edu.ups.clases;
 
 /**
+ * Utensilio
  *
- * @author PCX
+ * Clase que permite ingresar los utensilios del restaurante
+ * @version 2.0
+ * @since 2019
+ * @author Jose Tapia
  */
 public class Utensilio 
 {
+
+    @Override
+    public String toString() 
+    {
+        return "Utensilios:" + "\n Numero de Mesas=" + numeroMesa + "\n Numero de Platos=" + numeroPlato + "\n Numero de Cucharas=" + numeroCuchara + '.';
+    }
     private int numeroMesa;
     private int numeroPlato;
     private int numeroCuchara;
