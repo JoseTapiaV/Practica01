@@ -17,6 +17,7 @@ import java.util.Scanner;
  * Clase que principal que nos muestra todos los daos ingresados
  * @version 2.0
  * @since 2019
+ * @see https://github.com/JoseTapiaV/Practica01
  * @author Jose Tapia
  */
 public class Prueba 
