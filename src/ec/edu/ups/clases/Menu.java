@@ -11,6 +11,7 @@ package ec.edu.ups.clases;
  * Clase que permite ingresar los nombres y costos del menu
  * @version 2.0
  * @since 2019
+ * @see https://github.com/JoseTapiaV/Practica01
  * @author Jose Tapia
  */
 public class Menu 
